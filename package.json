@@ -1,0 +1,15 @@
+{
+  "name": "zimic-example-with-vitest-node",
+  "version": "0.0.0",
+  "private": false,
+  "packageManager": "pnpm@9.12.3",
+  "scripts": {
+    "test": "vitest",
+    "types:check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vitest": "2.1.5",
+    "zimic": "0.10.0"
+  }
+}
